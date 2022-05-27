@@ -1,0 +1,32 @@
+
+
+.nav-wrapper {
+  background: rgb(106, 106, 245);
+}
+
+.box {
+  background-color: rgb(106, 106, 245);
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  
+}
+
+.flex {
+  /* display: flex; */
+  flex-wrap: wrap;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.page-footer {
+  background-color:  rgb(106, 106, 245);
+}
